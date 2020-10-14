@@ -32,7 +32,7 @@ public class TwoSum {
 
     /**
      * hashmap的方式
-     *
+     * 还有其他方案：https://bugstack.cn/itstack-demo-algorithm/2020/03/14/%E9%87%8E%E8%B7%AF%E5%AD%90%E6%90%9E%E7%AE%97%E6%B3%95-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C-%E5%B8%A6%E7%9D%80%E5%B0%8F%E7%99%BD%E5%88%B7%E9%9D%A2%E8%AF%95.htmlgi
      * @param nums   数组
      * @param target 目标和
      * @return 答案下标数组
@@ -52,8 +52,9 @@ public class TwoSum {
     }
 
     /**
-     * 杨氏矩阵方式（针对有序数组情况可以头尾指针往前走）
+     * 杨氏矩阵方式（针对有序数组情况可以头尾指针往前走
      * https://time.geekbang.org/column/article/284707
+     *
      *
      * @param nums   数组
      * @param target 目标和
