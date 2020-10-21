@@ -13,10 +13,10 @@ public class Node {
     int height;
 
     public Node(int val) {
-        new Node(val, null, null);
+        new Node(val, null, null, 0);
     }
 
-    public Node(int val, Node lChild, Node rChild,int height) {
+    public Node(int val, Node lChild, Node rChild, int height) {
         this.val = val;
         this.lChild = lChild;
         this.rChild = rChild;

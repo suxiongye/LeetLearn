@@ -11,5 +11,6 @@ public class TreeCommonOpt {
         Node res = node.lChild;
         node.lChild = res.rChild;
         res.rChild = node;
+        return res;
     }
 }
